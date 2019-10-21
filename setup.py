@@ -57,13 +57,13 @@ class CMakeBuild(build_ext):
         subprocess.check_call(['cmake', '--build', '.'] + build_args, cwd=self.build_temp)
 
 setup(
-    name='cmake_example',
+    name='royal',
     version='0.0.1',
-    author='Dean Moldovan',
-    author_email='dean0x7d@gmail.com',
-    description='A test project using pybind11 and CMake',
-    long_description='',
-    ext_modules=[CMakeExtension('cmake_example')],
+    author='Joshua Weinstein',
+    author_email='jweinst1@berkeley.edu',
+    description='A poker modeling engine',
+    long_description=open("README.md", "r").read(),
+    ext_modules=[CMakeExtension('royal')],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
 )

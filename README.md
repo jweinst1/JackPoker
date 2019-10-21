@@ -1,14 +1,11 @@
-# cmake_example for pybind11
+# Royal
 
-[![Build Status](https://travis-ci.org/pybind/cmake_example.svg?branch=master)](https://travis-ci.org/pybind/cmake_example)
-[![Build status](https://ci.appveyor.com/api/projects/status/57nnxfm4subeug43/branch/master?svg=true)](https://ci.appveyor.com/project/dean0x7d/cmake-example/branch/master)
-
-An example [pybind11](https://github.com/pybind/pybind11) module built with a
-CMake-based build system. This is useful for C++ codebases that have an existing
-CMake project structure.
+*A modern, state of the art, Poker modeling engine*
 
 
 ## Prerequisites
+
+In order to build `royal`, you will need additional components aside from a C++ compiler.
 
 **On Unix (Linux, OS X)**
 
@@ -20,19 +17,6 @@ CMake project structure.
 * Visual Studio 2015 (required for all Python versions, see notes below)
 * CMake >= 3.1
 
-
-## Installation
-
-Just clone this repository and pip install. Note the `--recursive` option which is
-needed for the pybind11 submodule:
-
-```bash
-git clone --recursive https://github.com/pybind/cmake_example.git
-pip install ./cmake_example
-```
-
-With the `setup.py` file included in this example, the `pip install` command will
-invoke CMake and build the pybind11 module as specified in `CMakeLists.txt`.
 
 
 ## Special notes for Windows
@@ -62,13 +46,6 @@ formats please refer to the Sphinx manual:
 
  - `cd cmake_example/docs`
  - `make html`
-
-
-## License
-
-Pybind11 is provided under a BSD-style license that can be found in the LICENSE
-file. By using, distributing, or contributing to this project, you agree to the
-terms and conditions of this license.
 
 
 ## Test call
