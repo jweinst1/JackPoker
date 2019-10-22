@@ -1,4 +1,6 @@
-include README.md LICENSE
+include README.md LICENSE.txt
 global-include CMakeLists.txt *.cmake
 recursive-include pysrc *
+recursive-include src *
 recursive-include pybind11/include *.h
+recursive-include include *.h
