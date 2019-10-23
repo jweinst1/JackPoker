@@ -6,6 +6,7 @@ project(royal)
 # This should always be on or when the python package is installed it won't build the C
 # extension.
 option(WITH_python_extension "Builds the python extension as well as the C++ library" ON)
+option(WITH_testing "Builds the test executables for the C/C++ code" OFF)
 
 if(WITH_python_extension MATCHES ON)
     add_subdirectory(pybind11)
@@ -26,6 +27,10 @@ endif(HAVE_STDINT_HEADER)
 
 # Builds the cpp library
 add_subdirectory(src)
+
+if(WITH_testing MATCHES ON)
+    add_subdirectory(tests)
+endif(WITH_testing MATCHES ON)
 
 # The python wrapper code is in pysrc
 if(WITH_python_extension MATCHES ON)
