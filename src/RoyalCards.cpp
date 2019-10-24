@@ -179,5 +179,29 @@ const RoyalCardSet SUIT_DIAMONDS = DIAMONDS_A |
  const RoyalCardSet GROUP_K = HEARTS_K |
                                     CLUBS_K |
                                     SPADES_K |
-                                    DIAMONDS_K;
+                                    DIAMONDS_K;                               
+                                    
+ const RoyalCardSet ROYALFLUSH_HEARTS = HEARTS_10 |
+                                        HEARTS_J |
+                                        HEARTS_Q |
+                                        HEARTS_K |
+                                        HEARTS_A;
+                                        
+ const RoyalCardSet ROYALFLUSH_CLUBS = CLUBS_10 |
+                                       CLUBS_J |
+                                       CLUBS_Q |
+                                       CLUBS_K |
+                                       CLUBS_A;
+                                       
+ const RoyalCardSet ROYALFLUSH_SPADES = SPADES_10 |
+                                        SPADES_J |
+                                        SPADES_Q |
+                                        SPADES_K |
+                                        SPADES_A;
+                                        
+ const RoyalCardSet ROYALFLUSH_DIAMONDS = DIAMONDS_10 |
+                                          DIAMONDS_J |
+                                          DIAMONDS_Q |
+                                          DIAMONDS_K |
+                                          DIAMONDS_A;
 }

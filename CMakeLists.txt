@@ -29,6 +29,7 @@ endif(HAVE_STDINT_HEADER)
 add_subdirectory(src)
 
 if(WITH_testing MATCHES ON)
+    enable_testing()
     add_subdirectory(tests)
 endif(WITH_testing MATCHES ON)
 

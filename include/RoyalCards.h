@@ -87,6 +87,12 @@ namespace RoyalCards {
     extern const RoyalCardSet GROUP_J;
     extern const RoyalCardSet GROUP_Q;
     extern const RoyalCardSet GROUP_K;
+    
+    /*Royal Flush sets*/
+    extern const RoyalCardSet ROYALFLUSH_HEARTS;
+    extern const RoyalCardSet ROYALFLUSH_CLUBS;
+    extern const RoyalCardSet ROYALFLUSH_SPADES;
+    extern const RoyalCardSet ROYALFLUSH_DIAMONDS;
 }
 
 #endif // ROYAL_CARDS_H
