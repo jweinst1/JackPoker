@@ -1,11 +1,11 @@
-# Royal
+# JackPoker
 
 *A modern, state of the art, Poker modeling engine*
 
 
 ## Prerequisites
 
-In order to build `royal`, you will need additional components aside from a C++ compiler.
+In order to build `jackpoker`, you will need additional components aside from a C++ compiler.
 
 **On Unix (Linux, OS X)**
 
